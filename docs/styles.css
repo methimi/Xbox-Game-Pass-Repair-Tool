@@ -37,7 +37,7 @@ button, input { font: inherit; }
 .site-header.scrolled { background: rgba(4, 61, 8, .96); box-shadow: 0 8px 30px rgba(0,0,0,.15); backdrop-filter: blur(14px); }
 .header-inner { height: 78px; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 11px; color: inherit; text-decoration: none; font-size: 15px; font-weight: 750; letter-spacing: -.02em; }
-.brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border: 2px solid currentColor; border-radius: 50%; font-weight: 900; line-height: 1; }
+.brand-mark { display: grid; place-items: center; width: 36px; height: 34px; color: var(--green-deep); background: var(--lime); border: 1px solid rgba(255,255,255,.5); border-radius: 9px; font-size: 11px; font-weight: 900; letter-spacing: -.04em; line-height: 1; box-shadow: inset 0 0 0 2px rgba(4,61,8,.12); }
 .site-nav { display: flex; align-items: center; gap: 31px; font-size: 14px; font-weight: 650; }
 .site-nav > a:not(.button) { position: relative; text-decoration: none; opacity: .82; }
 .site-nav > a:not(.button)::after { content: ""; position: absolute; left: 0; right: 100%; bottom: -7px; height: 2px; background: var(--lime); transition: right .2s ease; }
@@ -69,7 +69,11 @@ button, input { font: inherit; }
 h1, h2, h3, p { margin-top: 0; }
 h1 { margin-bottom: 25px; font-size: clamp(48px, 5.3vw, 76px); line-height: .98; letter-spacing: -.055em; }
 h1 em { color: var(--lime); font-style: normal; }
-.hero-lead { max-width: 610px; margin-bottom: 31px; color: #dbe9dc; font-size: clamp(18px, 1.7vw, 21px); line-height: 1.55; }
+.hero-slogan { margin: -7px 0 18px; color: var(--white); font-size: 18px; letter-spacing: -.01em; }
+.hero-slogan strong { color: var(--lime); }
+.hero-lead { max-width: 720px; margin-bottom: 21px; color: #dbe9dc; font-size: clamp(18px, 1.7vw, 21px); line-height: 1.55; }
+.compatibility-note { max-width: 720px; margin: 0 0 31px; padding: 11px 15px; color: #c8d8c9; background: rgba(255,255,255,.07); border-left: 3px solid var(--lime); border-radius: 0 8px 8px 0; font-size: 13px; }
+.compatibility-note strong { color: var(--white); }
 .hero-actions { display: flex; align-items: center; gap: 25px; }
 .hero-notes { display: flex; flex-wrap: wrap; gap: 10px 19px; padding: 0; margin: 34px 0 0; list-style: none; color: #dbe9dc; font-size: 13px; }
 .hero-notes span { color: var(--lime); font-weight: 900; }
