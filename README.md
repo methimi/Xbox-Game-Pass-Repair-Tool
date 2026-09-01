@@ -51,7 +51,7 @@ Uygulama özellikle şu alanlara bakar:
 
 ### 1. İndirin ve klasöre çıkarın
 
-GitHub üzerindeki **Releases** bölümünden en güncel ZIP paketini indirin ve tamamını bir klasöre çıkarın.
+GitHub üzerindeki **[Releases](https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases)** bölümünden en güncel ZIP paketini indirin ve tamamını bir klasöre çıkarın.
 
 > [!WARNING]
 > Yalnızca EXE dosyasını başka yere taşımayın. `XboxGamePassRepairTool.exe` ile `ApplicationFiles` klasörü birlikte kalmalıdır.
