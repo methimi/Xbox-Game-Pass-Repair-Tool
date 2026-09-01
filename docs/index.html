@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#107c10">
+  <meta name="description" content="An independent Windows diagnostic and repair tool for Xbox app and PC Game Pass issues.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://methimi.github.io/Xbox-Game-Pass-Repair-Tool/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Xbox Game Pass Repair Tool">
+  <meta property="og:description" content="Find Xbox app and PC Game Pass issues, review safe repair options, and verify the result.">
+  <meta property="og:url" content="https://methimi.github.io/Xbox-Game-Pass-Repair-Tool/">
+  <meta property="og:image" content="https://methimi.github.io/Xbox-Game-Pass-Repair-Tool/assets/app-results.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Xbox Game Pass Repair Tool">
+  <meta name="twitter:description" content="Independent diagnostics and guided repairs for Xbox app and PC Game Pass issues on Windows.">
+  <meta name="twitter:image" content="https://methimi.github.io/Xbox-Game-Pass-Repair-Tool/assets/app-results.png">
+  <title>Xbox Game Pass Repair Tool — Diagnose and Repair PC Game Pass Issues</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Xbox Game Pass Repair Tool home">
+        <span class="brand-mark" aria-hidden="true">X</span>
+        <span>Game Pass Repair Tool</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+        <span class="sr-only">Open navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation" data-nav>
+        <a href="#features">Features</a>
+        <a href="#checks">What it checks</a>
+        <a href="#safety">Safety</a>
+        <a href="#faq">FAQ</a>
+        <a class="button button-small" href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/XGP_RepairTool.zip">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="shell hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Built for Windows 10 and 11</p>
+          <h1>Find the problem.<br><em>Fix with confidence.</em></h1>
+          <p class="hero-lead">A focused diagnostic and repair tool for Xbox app, Microsoft Store, Gaming Services, and PC Game Pass issues.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/XGP_RepairTool.zip">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 19h14"/></svg>
+              Download latest release
+            </a>
+            <a class="text-link" href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases">View all releases <span aria-hidden="true">→</span></a>
+          </div>
+          <ul class="hero-notes" aria-label="Product highlights">
+            <li><span>✓</span> Detailed diagnostics</li>
+            <li><span>✓</span> User-approved repairs</li>
+            <li><span>✓</span> Post-repair verification</li>
+          </ul>
+        </div>
+
+        <div class="product-visual reveal reveal-late">
+          <div class="window-bar" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <p>Xbox Game Pass Repair Tool</p>
+          </div>
+          <img src="assets/app-results.png" alt="The repair tool showing detected issues and a user-approved repair option" width="918" height="416">
+          <div class="visual-status"><span></span> Scan → Explain → Repair → Verify</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Important product information">
+      <div class="shell trust-grid">
+        <p><strong>Independent project</strong><span>Not affiliated with Microsoft or Xbox</span></p>
+        <p><strong>Transparent results</strong><span>Confirmed, informational, and uncertain findings stay separate</span></p>
+        <p><strong>You stay in control</strong><span>No repair begins without your approval</span></p>
+      </div>
+    </section>
+
+    <section id="features" class="section section-light">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="kicker">A clearer path to the cause</p>
+          <h2>More than a reset button</h2>
+          <p>The tool looks across related Windows components, explains what it finds, and keeps uncertain results from being presented as confirmed failures.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-card-dark reveal">
+            <span class="card-number">01</span>
+            <div class="feature-icon" aria-hidden="true">⌕</div>
+            <h3>Deep system scan</h3>
+            <p>Checks Xbox services, Store infrastructure, network layers, app packages, drivers, security context, and more.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="card-number">02</span>
+            <div class="feature-icon" aria-hidden="true">◎</div>
+            <h3>Correlated findings</h3>
+            <p>Related signals are evaluated together to reduce false positives and point toward a more useful root cause.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="card-number">03</span>
+            <div class="feature-icon" aria-hidden="true">↻</div>
+            <h3>Verified repairs</h3>
+            <p>Supported actions are checked again after repair and reported as successful, partial, pending, or failed.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="card-number">04</span>
+            <div class="feature-icon" aria-hidden="true">↩</div>
+            <h3>Repair history and undo</h3>
+            <p>The latest repair session is recorded, with undo offered where the original state can be restored safely.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section workflow-section">
+      <div class="shell workflow-layout">
+        <div class="section-heading section-heading-left reveal">
+          <p class="kicker">How it works</p>
+          <h2>Four steps.<br>One informed decision.</h2>
+          <p>The scan itself does not change system settings. You review every proposed action before anything is repaired.</p>
+        </div>
+        <ol class="workflow-list">
+          <li class="reveal"><span>1</span><div><h3>Run the full scan</h3><p>Watch checks complete in real time or cancel safely when needed.</p></div></li>
+          <li class="reveal"><span>2</span><div><h3>Review the evidence</h3><p>See detected issues, manual actions, and information that could not be verified.</p></div></li>
+          <li class="reveal"><span>3</span><div><h3>Approve selected repairs</h3><p>The tool shows what it plans to change and waits for your confirmation.</p></div></li>
+          <li class="reveal"><span>4</span><div><h3>Verify the outcome</h3><p>Relevant checks run again and the final state is recorded clearly.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="checks" class="section checks-section">
+      <div class="shell">
+        <div class="section-heading section-heading-left reveal">
+          <p class="kicker">Broad coverage</p>
+          <h2>The layers behind PC Game Pass</h2>
+          <p>Problems that look identical can start in very different places. The scan covers the Windows and gaming layers that commonly affect installs, updates, sign-in, and launch.</p>
+        </div>
+        <div class="checks-grid">
+          <article class="check-item reveal"><span>🎮</span><div><h3>Xbox &amp; Gaming Services</h3><p>App packages, required services, registration, and dependencies.</p></div></article>
+          <article class="check-item reveal"><span>▦</span><div><h3>Microsoft Store</h3><p>Licensing, downloads, Store cache, AppX health, and updates.</p></div></article>
+          <article class="check-item reveal"><span>⌁</span><div><h3>Network &amp; connectivity</h3><p>DNS, WinINET, WinHTTP, proxy, PAC, VPN signals, TLS, and Microsoft endpoints.</p></div></article>
+          <article class="check-item reveal"><span>◷</span><div><h3>Time &amp; region</h3><p>Clock synchronization, time zone, region, and certificate context.</p></div></article>
+          <article class="check-item reveal"><span>⚙</span><div><h3>Windows components</h3><p>Windows Update, BITS, system files, restart state, and event evidence.</p></div></article>
+          <article class="check-item reveal"><span>▰</span><div><h3>Gaming runtime</h3><p>GPU driver, DirectX, Visual C++, .NET, shader cache, and virtual memory.</p></div></article>
+          <article class="check-item reveal"><span>◈</span><div><h3>Storage &amp; profile</h3><p>Free space, game drives, folder access, packages, and user profile health.</p></div></article>
+          <article class="check-item reveal"><span>◇</span><div><h3>Security &amp; hardware</h3><p>Defender impact, anti-cheat, Secure Boot, controllers, memory, and WHEA events.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="safety" class="section safety-section">
+      <div class="shell safety-layout">
+        <div class="safety-copy reveal">
+          <p class="kicker">Safety and transparency</p>
+          <h2>Know what the tool can—and cannot—do.</h2>
+          <p>Automatic repair is reserved for suitable actions. Account, subscription, payment, age restriction, Microsoft service outage, and organization policy issues may still need manual action.</p>
+          <ul class="tick-list">
+            <li><span>✓</span> Scanning does not change system settings</li>
+            <li><span>✓</span> Repairs require explicit approval</li>
+            <li><span>✓</span> High-impact actions are identified separately</li>
+            <li><span>✓</span> Restarts are never forced without permission</li>
+          </ul>
+        </div>
+        <aside class="privacy-card reveal" aria-labelledby="privacy-title">
+          <div class="privacy-label">Important</div>
+          <h3 id="privacy-title">Diagnostic data sharing</h3>
+          <p>This version automatically sends a Telegram notification to the developer when a scan starts and finishes. The completed report can include detailed technical system information, scan results, an optional error code, and user feedback.</p>
+          <p>It does not report personal file contents, passwords, browser history, hardware serial numbers, IP addresses, or MAC addresses.</p>
+          <a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool#-privacy-and-data-sharing">Read the full privacy disclosure <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq-section">
+      <div class="shell faq-layout">
+        <div class="section-heading section-heading-left reveal">
+          <p class="kicker">Good to know</p>
+          <h2>Frequently asked questions</h2>
+        </div>
+        <div class="accordion" data-accordion>
+          <details class="reveal">
+            <summary>Is this an official Microsoft or Xbox tool?<span aria-hidden="true">+</span></summary>
+            <p>No. This is an independent third-party project. It is not developed, published, supported, or endorsed by Microsoft and has no official or commercial connection with Microsoft, Xbox, or Game Pass.</p>
+          </details>
+          <details class="reveal">
+            <summary>Does a scan change anything on my computer?<span aria-hidden="true">+</span></summary>
+            <p>No. The full scan only reads the current state. Actions that can make changes appear separately and require your approval before they begin.</p>
+          </details>
+          <details class="reveal">
+            <summary>Why does the app request administrator access?<span aria-hidden="true">+</span></summary>
+            <p>Some Windows services, system logs, packages, and repair commands require administrator access to be checked or changed correctly.</p>
+          </details>
+          <details class="reveal">
+            <summary>Does “successful” guarantee that my game will launch?<span aria-hidden="true">+</span></summary>
+            <p>No single repair tool can guarantee that. “Successful” means the requested action completed and was verified where possible. Account, Store, game-specific, or remote service problems can still remain.</p>
+          </details>
+          <details class="reveal">
+            <summary>What do I need to run it?<span aria-hidden="true">+</span></summary>
+            <p>Windows 10 22H2 or Windows 11, an internet connection, Microsoft Edge WebView2 Runtime, and administrator permission for some checks and repairs.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-section">
+      <div class="shell download-card reveal">
+        <div>
+          <p class="kicker">Ready to investigate?</p>
+          <h2>Start with a complete system scan.</h2>
+          <p>Download the ZIP package, extract every file to one folder, and run the application.</p>
+        </div>
+        <a class="button button-white" href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/XGP_RepairTool.zip">Download latest release <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <a class="brand brand-footer" href="#top"><span class="brand-mark" aria-hidden="true">X</span><span>Game Pass Repair Tool</span></a>
+        <p>An independent diagnostic and repair utility for Windows.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool">GitHub repository</a>
+        <a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases">Releases</a>
+        <a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/issues">Report an issue</a>
+      </div>
+    </div>
+    <div class="shell footer-legal">
+      <p>Microsoft, Windows, Xbox, Xbox Game Pass, and Microsoft Store are trademarks of their respective owners.</p>
+      <p>© <span data-year></span> Xbox Game Pass Repair Tool</p>
+    </div>
+  </footer>
+</body>
+</html>
