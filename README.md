@@ -6,7 +6,7 @@
 
 🪟 Windows 10 / 11 &nbsp; • &nbsp; 🧰 Scanning and repair &nbsp; • &nbsp; ↩️ Undo support
 
-<a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/XGP_RepairTool.zip"><img src="https://img.shields.io/badge/Download_Now-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Download Now"></a>
+<a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/XboxGamePassRepairTool_Setup.exe"><img src="https://img.shields.io/badge/Download_Now-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Download Now"></a>
 
 **Download the latest version, extract the ZIP file to a folder, and get started.**
 
