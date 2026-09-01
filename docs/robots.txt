@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://methimi.github.io/Xbox-Game-Pass-Repair-Tool/sitemap.xml
