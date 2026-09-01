@@ -12,6 +12,11 @@
 
 </div>
 
+## 🌐 Supported Languages
+
+- 🇬🇧 **English**
+- 🇹🇷 [Türkçe](README_TR.md)
+
 > [!IMPORTANT]
 > This project is not developed, published, supported, or endorsed by Microsoft. It has no official or commercial connection with Microsoft, Xbox, or Game Pass.
 
