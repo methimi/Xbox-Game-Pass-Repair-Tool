@@ -4,7 +4,11 @@
 
 ### Xbox uygulaması ve PC Game Pass sorunlarını bulmaya ve gidermeye yardımcı olan bağımsız Windows aracı
 
-🪟 Windows 10 / 11 &nbsp; • &nbsp; 🌐 Türkçe / English &nbsp; • &nbsp; 🧰 Tarama ve onarım &nbsp; • &nbsp; ↩️ Geri alma desteği
+🪟 Windows 10 / 11 &nbsp; • &nbsp; 🧰 Tarama ve onarım &nbsp; • &nbsp; ↩️ Geri alma desteği
+
+## [⬇️ Şimdi İndirin](../../releases/latest)
+
+**En güncel sürümü indirin, ZIP dosyasını bir klasöre çıkarın ve kullanmaya başlayın.**
 
 </div>
 
@@ -55,8 +59,6 @@ GitHub üzerindeki **Releases** bölümünden en güncel ZIP paketini indirin ve
 ### 2. Uygulamayı açın
 
 `XboxGamePassRepairTool.exe` dosyasına çift tıklayın. Bazı kontroller ve onarımlar için Windows yönetici izni isteyebilir.
-
-Paketle gelen `ApplicationFiles/Scanner.exe`, ana uygulamayla birlikte konsol penceresi göstermeden arka planda çalışır.
 
 ### 3. İsterseniz hata kodunu girin
 
@@ -122,18 +124,6 @@ Geri alma işlemi yapılırsa o onarıma ait memnuniyet anketi kaldırılır.
 ## 🔄 Yeniden başlatma
 
 Bazı Windows servisleri ve paket değişiklikleri ancak bilgisayar yeniden başladıktan sonra tamamlanır. Uygulama gerekli veya önerilen yeniden başlatma durumlarını ayrıca bildirir; bilgisayarı izniniz olmadan yeniden başlatmaz.
-
-## 🧾 Raporlar ve günlükler
-
-Her tamamlanan taramadan sonra kullanıcıya okunabilir bir HTML raporu hazırlanır. Yeni tarama yapıldığında önceki HTML raporunun üzerine yazılır; böylece raporlar zamanla gereksiz yer kaplamaz.
-
-Yerel dosyalar genellikle şu klasörde tutulur:
-
-```text
-%LOCALAPPDATA%\XboxGamePassOnarimAraci\
-```
-
-Bu klasörde son rapor, destek kimliği ve onarım geçmişi gibi uygulama verileri bulunabilir. Tanı günlüğü, geliştiricinin kontrollerin ve onarımların nasıl çalıştığını inceleyebilmesi için ayrıntılı işlem sonuçları tutar.
 
 ## 🔐 Gizlilik ve veri paylaşımı
 
@@ -216,47 +206,6 @@ Uygulama mümkün olduğunda onarım sonrasında aynı alanı yeniden kontrol ed
 <summary><strong>Yalnızca EXE dosyasını kopyalayabilir miyim?</strong></summary>
 
 Hayır. `ApplicationFiles` klasörü uygulamanın gerekli parçalarını içerir. EXE ve bu klasör birlikte taşınmalıdır.
-
-</details>
-
-## 🧑‍💻 Geliştiriciler için
-
-<details>
-<summary><strong>Kaynak koddan çalıştırma ve derleme komutlarını göster</strong></summary>
-
-### Kaynak koddan çalıştırma
-
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-python main.py
-```
-
-### Testler
-
-```powershell
-python -m pip install -r requirements-dev.txt
-python -m pytest
-node --test tests_js/ui_logic.test.js
-python data/lang/check_translations.py
-```
-
-### Klasör tabanlı Windows derlemesi
-
-```powershell
-python -m PyInstaller --clean --noconfirm XboxGamePassRepairTool.spec
-```
-
-Derleme çıktısı:
-
-```text
-dist/XboxGamePassRepairTool/
-├── XboxGamePassRepairTool.exe
-└── ApplicationFiles/
-```
-
-`Scanner.exe` proje kökünden otomatik olarak pakete eklenir. Uygulama tek dosya olarak değil, klasör tabanlı olarak dağıtılır.
 
 </details>
 
