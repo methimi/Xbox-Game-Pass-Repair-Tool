@@ -6,7 +6,7 @@
 
 🪟 Windows 10 / 11 &nbsp; • &nbsp; 🧰 Tarama ve onarım &nbsp; • &nbsp; ↩️ Geri alma desteği
 
-## [⬇️ Şimdi İndirin](../../releases/latest)
+<a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest"><img src="https://img.shields.io/badge/Şimdi_İndirin-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Şimdi İndirin"></a>
 
 **En güncel sürümü indirin, ZIP dosyasını bir klasöre çıkarın ve kullanmaya başlayın.**
 
