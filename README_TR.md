@@ -8,7 +8,9 @@
 
 <a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/Xbox-Game-Pass-Repair-Tool-Setup.exe"><img src="https://img.shields.io/badge/Şimdi_İndirin-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Şimdi İndirin"></a>
 
-**En güncel sürümü indirin, ZIP dosyasını bir klasöre çıkarın ve kullanmaya başlayın.**
+**Kurulum dosyasını indirin, kurulumu tamamlayın ve kullanmaya başlayın.**
+
+🌐 **[Resmî web sitesini ziyaret edin](https://methimi.github.io/Xbox-Game-Pass-Repair-Tool/)**
 
 </div>
 
@@ -54,16 +56,15 @@ Uygulama özellikle şu alanlara bakar:
 
 ## 🚀 Nasıl kullanılır?
 
-### 1. İndirin ve klasöre çıkarın
+### 1. İndirin ve kurun
 
-GitHub üzerindeki **[Releases](https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases)** bölümünden en güncel ZIP paketini indirin ve tamamını bir klasöre çıkarın.
+GitHub üzerindeki **[Releases](https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases)** bölümünden **Xbox-Game-Pass-Repair-Tool-Setup.exe** dosyasını indirin. Ardından kurulum dosyasını çalıştırın ve ekrandaki adımları izleyin.
 
-> [!WARNING]
-> Yalnızca EXE dosyasını başka yere taşımayın. `XboxGamePassRepairTool.exe` ile `ApplicationFiles` klasörü birlikte kalmalıdır.
+Kurulum programı gerekli bütün uygulama dosyalarını doğru konuma yerleştirir ve Başlat menüsü ile masaüstü kısayollarını oluşturabilir. Dosyaları elle çıkarmanız veya taşımanız gerekmez.
 
 ### 2. Uygulamayı açın
 
-`XboxGamePassRepairTool.exe` dosyasına çift tıklayın. Bazı kontroller ve onarımlar için Windows yönetici izni isteyebilir.
+**Xbox Game Pass Repair Tool** uygulamasını masaüstü kısayolundan veya Başlat menüsünden açın. Uygulama normal kullanıcı yetkileriyle başlar. Windows yalnızca seçilen bir onarım gerektirdiğinde yönetici izni ister.
 
 ### 3. İsterseniz hata kodunu girin
 
@@ -133,20 +134,22 @@ Bazı Windows servisleri ve paket değişiklikleri ancak bilgisayar yeniden baş
 ## 🔐 Gizlilik ve veri paylaşımı
 
 > [!CAUTION]
-> Bu sürüm, tarama başladığında ve tamamlandığında geliştiriciye Telegram üzerinden otomatik bildirim gönderir.
+> Bu sürüm; tarama bildirimlerini, tamamlanan HTML raporunu ve makine tarafından okunabilen teknik yaşam döngüsü raporunu Telegram üzerinden geliştiriciye otomatik gönderir. Teknik rapor onarımdan sonra güncellenerek yeniden gönderilir.
 
 Gönderilebilecek bilgiler:
 
 - Rastgele oluşturulan destek kimliği ve tarama kimliği
 - Girildiyse hata kodu; girilmediyse kod girilmediği bilgisi
-- Tarama sonuçları ve ayrıntılı HTML raporu
+- Tarama sonuçları, ayrıntılı HTML raporu, kontrol süreleri ve kanıtları
+- Onarım komutu sonuçları, onarım sonrası doğrulama, yeniden başlatma durumu ve geri alma kullanılabilirliği
+- Önceki oturumdan bekleyen Python, arka plan iş parçacığı, arayüz, native, başlangıç ve beklenmeyen kapanış raporları
 - Windows sürümü, donanım modeli, işlemci, bellek, ekran kartı ve sürücü bilgileri
 - Disklerin genel kapasite ve boş alan bilgileri
 - Ağ bağdaştırıcısı, güvenlik özellikleri ve Xbox paket sürümleri
 - Kullanıcının “çözüldü” veya “çözülmedi” geri bildirimi
 - “Çözülmedi” seçilirse kullanıcının kendi yazdığı açıklama
 
-Uygulama kişisel dosyaların içeriğini, parolaları veya tarayıcı geçmişini raporlamak amacıyla toplamaz. Donanım seri numaraları, IP adresleri ve MAC adresleri sistem envanterine eklenmez. Bununla birlikte rapor ayrıntılı teknik sistem bilgisi içerir; uygulamayı kullanmadan önce bu paylaşımı kabul ettiğinizden emin olun.
+Gönderilemeyen uygulama hata raporları yerel kuyruğa alınır ve arayüzün bir sonraki açılışından sonra tekrar gönderilir. Temiz kapanış işaretinin bulunmaması kesin çökme olarak değil, beklenmeyen kapanış olarak raporlanır. Uygulama kişisel dosyaların içeriğini, parolaları veya tarayıcı geçmişini raporlamak amacıyla toplamaz. Donanım seri numaraları, IP adresleri ve MAC adresleri sistem envanterine eklenmez. Bununla birlikte raporlar ayrıntılı teknik bilgiler içerir; uygulamayı kullanmadan önce bu paylaşımı kabul ettiğinizden emin olun.
 
 ## 🛡️ Güvenlik yaklaşımı
 
@@ -204,13 +207,6 @@ Hayır. Bu, kontrolün kesin bir sonuca ulaşamadığını gösterir. Kurum poli
 <summary><strong>Onarım başarılı görünüyorsa sorun kesin çözülmüş müdür?</strong></summary>
 
 Uygulama mümkün olduğunda onarım sonrasında aynı alanı yeniden kontrol eder. Ancak Store kurulumu, yeniden başlatma veya hesap işlemi gerekiyorsa sonuç “bekliyor” ya da “kısmi” kalabilir.
-
-</details>
-
-<details>
-<summary><strong>Yalnızca EXE dosyasını kopyalayabilir miyim?</strong></summary>
-
-Hayır. `ApplicationFiles` klasörü uygulamanın gerekli parçalarını içerir. EXE ve bu klasör birlikte taşınmalıdır.
 
 </details>
 
