@@ -8,7 +8,9 @@
 
 <a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/Xbox-Game-Pass-Repair-Tool-Setup.exe"><img src="https://img.shields.io/badge/Download_Now-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Download Now"></a>
 
-**Download the latest version, extract the ZIP file to a folder, and get started.**
+**Download the installer, complete the setup, and get started.**
+
+🌐 **[Visit the official website](https://methimi.github.io/Xbox-Game-Pass-Repair-Tool/)**
 
 </div>
 
@@ -54,16 +56,15 @@ The app checks areas such as:
 
 ## 🚀 How to use it
 
-### 1. Download and extract
+### 1. Download and install
 
-Download the latest ZIP package from the **[Releases](https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases)** page on GitHub and extract the entire package to a folder.
+Download **Xbox-Game-Pass-Repair-Tool-Setup.exe** from the **[Releases](https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases)** page on GitHub, then run the installer and follow the on-screen steps.
 
-> [!WARNING]
-> Do not move only the EXE file. `XboxGamePassRepairTool.exe` and the `ApplicationFiles` folder must remain together.
+The installer places all required application files in the correct location and can create Start menu and desktop shortcuts. You do not need to extract or move any files manually.
 
 ### 2. Open the app
 
-Double-click `XboxGamePassRepairTool.exe`. Windows may request administrator permission for some checks and repairs.
+Open **Xbox Game Pass Repair Tool** from its desktop shortcut or the Start menu. The app starts with normal user permissions. Windows requests administrator permission only when a selected repair requires it.
 
 ### 3. Enter an error code if you have one
 
@@ -133,20 +134,22 @@ Some Windows service and package changes are completed only after the computer r
 ## 🔐 Privacy and data sharing
 
 > [!CAUTION]
-> This version automatically sends a Telegram notification to the developer when a scan starts and when it finishes.
+> This version automatically sends scan notifications, the completed HTML report, and a machine-readable technical lifecycle report to the developer through Telegram. The technical report is updated and sent again after a repair.
 
 Information that may be sent includes:
 
 - A randomly generated support ID and scan ID
 - The error code, if one was entered, or a notice that no code was provided
-- Scan results and the detailed HTML report
+- Scan results, the detailed HTML report, and per-check durations and evidence
+- Repair command results, post-repair verification, restart status, and undo availability
+- Pending Python, background-thread, interface, native, startup, and unexpected-exit reports from the previous session
 - Windows version, hardware model, processor, memory, graphics card, and driver information
 - General disk capacity and free-space information
 - Network adapter details, security features, and Xbox package versions
 - The user's “resolved” or “not resolved” feedback
 - The user's own description if “not resolved” is selected
 
-The app does not collect the contents of personal files, passwords, or browser history for reporting purposes. Hardware serial numbers, IP addresses, and MAC addresses are not added to the system inventory. However, the report contains detailed technical system information, so make sure you accept this sharing before using the app.
+Application failure reports are queued locally when they cannot be delivered and are retried after the next interface startup. A missing clean-exit marker is reported as an unexpected exit, not as proof of a crash. The app does not collect the contents of personal files, passwords, or browser history for reporting purposes. Hardware serial numbers, IP addresses, and MAC addresses are not added to the system inventory. However, the reports contain detailed technical information, so make sure you accept this sharing before using the app.
 
 ## 🛡️ Safety approach
 
@@ -204,13 +207,6 @@ No. It means the check could not reach a definite conclusion. Organization polic
 <summary><strong>If a repair is shown as successful, is the problem definitely fixed?</strong></summary>
 
 The app checks the same area again after a repair whenever possible. However, if a Store installation, restart, or account action is still required, the result may remain “pending” or “partial.”
-
-</details>
-
-<details>
-<summary><strong>Can I copy only the EXE file?</strong></summary>
-
-No. The `ApplicationFiles` folder contains required parts of the app. The EXE and this folder must be moved together.
 
 </details>
 
