@@ -6,9 +6,9 @@
 
 🪟 Windows 10 / 11 &nbsp; • &nbsp; 🧰 Tarama ve onarım &nbsp; • &nbsp; ↩️ Geri alma desteği
 
-<a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/Xbox-Game-Pass-Repair-Tool-Setup.exe"><img src="https://img.shields.io/badge/Şimdi_İndirin-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Şimdi İndirin"></a>
+<a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/Xbox-Game-Pass-Repair-Tool.msi"><img src="https://img.shields.io/badge/Şimdi_İndirin-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Şimdi İndirin"></a>
 
-**Kurulum dosyasını indirin, kurulumu tamamlayın ve kullanmaya başlayın.**
+**Windows MSI paketini indirin, kurulumu tamamlayın ve kullanmaya başlayın.**
 
 🌐 **[Resmî web sitesini ziyaret edin](https://methimi.github.io/Xbox-Game-Pass-Repair-Tool/)**
 
@@ -58,9 +58,9 @@ Uygulama özellikle şu alanlara bakar:
 
 ### 1. İndirin ve kurun
 
-GitHub üzerindeki **[Releases](https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases)** bölümünden **Xbox-Game-Pass-Repair-Tool-Setup.exe** dosyasını indirin. Ardından kurulum dosyasını çalıştırın ve ekrandaki adımları izleyin.
+GitHub üzerindeki **[Releases](https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases)** bölümünden **Xbox-Game-Pass-Repair-Tool.msi** dosyasını indirin. Dosyayı açın ve Windows Installer adımlarını izleyin.
 
-Kurulum programı gerekli bütün uygulama dosyalarını doğru konuma yerleştirir ve Başlat menüsü ile masaüstü kısayollarını oluşturabilir. Dosyaları elle çıkarmanız veya taşımanız gerekmez.
+MSI paketi gerekli bütün uygulama dosyalarını Windows kullanıcı hesabınız için doğru konuma yerleştirir ve Başlat menüsü ile masaüstü kısayollarını oluşturur. Dosyaları elle çıkarmanız veya taşımanız gerekmez. Kurulum normal kullanıcı yetkisiyle yapılır; yönetici izni yalnızca uygulama içindeki bir onarım gerektirdiğinde istenir.
 
 ### 2. Uygulamayı açın
 

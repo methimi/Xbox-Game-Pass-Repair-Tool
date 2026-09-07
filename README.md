@@ -6,9 +6,9 @@
 
 🪟 Windows 10 / 11 &nbsp; • &nbsp; 🧰 Scanning and repair &nbsp; • &nbsp; ↩️ Undo support
 
-<a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/Xbox-Game-Pass-Repair-Tool-Setup.exe"><img src="https://img.shields.io/badge/Download_Now-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Download Now"></a>
+<a href="https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases/latest/download/Xbox-Game-Pass-Repair-Tool.msi"><img src="https://img.shields.io/badge/Download_Now-16a34a?style=for-the-badge&logo=github&logoColor=white" alt="Download Now"></a>
 
-**Download the installer, complete the setup, and get started.**
+**Download the Windows MSI package, complete the setup, and get started.**
 
 🌐 **[Visit the official website](https://methimi.github.io/Xbox-Game-Pass-Repair-Tool/)**
 
@@ -58,9 +58,9 @@ The app checks areas such as:
 
 ### 1. Download and install
 
-Download **Xbox-Game-Pass-Repair-Tool-Setup.exe** from the **[Releases](https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases)** page on GitHub, then run the installer and follow the on-screen steps.
+Download **Xbox-Game-Pass-Repair-Tool.msi** from the **[Releases](https://github.com/methimi/Xbox-Game-Pass-Repair-Tool/releases)** page on GitHub, open it, and follow the Windows Installer steps.
 
-The installer places all required application files in the correct location and can create Start menu and desktop shortcuts. You do not need to extract or move any files manually.
+The MSI installs all required application files for your Windows account and creates Start menu and desktop shortcuts. You do not need to extract or move any files manually. The installer itself runs with normal user permissions; administrator approval is requested only when an in-app repair requires it.
 
 ### 2. Open the app
 
